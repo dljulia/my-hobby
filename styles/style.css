@@ -1,0 +1,56 @@
+html {
+    font-size: 20px; 
+}
+ 
+body{
+    font-family: Roboto, sans-serif;
+}
+ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px 0 100px;
+    color: rgb(90, 90, 90);
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+article {    
+    display: inline-block;
+    vertical-align: top;
+    width: calc((100% - 100px) / 2);
+}
+
+article:not(:last-child) {
+    margin-right: 100px;
+}
+
+.hobby-image {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: rgb(90, 90, 90);
+    margin: 20px 0;
+}
+
+p {
+    font-size: .8rem;
+    color: rgb(146, 145, 145);
+}
+
